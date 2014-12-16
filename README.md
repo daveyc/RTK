@@ -1,7 +1,10 @@
 RTK
 ===
 
-REXX Toolkit
+The z/OS REXX toolkit is a command processor that provides functionality not provided by standard z/OS REXX APIs. At present
+RTK only supports regular expressions. Future releases may add file I/O, including VSAM which is a sorely missing from z/OS REXX.
+
+RTK regex uses ECMAScript grammar http://www.ecma-international.org/ecma-262/5.1/#sec-A.7.
 
 ```rexx
 /* REXX */
